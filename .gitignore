@@ -1,0 +1,7 @@
+.idea/
+out/
+design_patterns/target/*
+high_level/target/*
+low_level/target/*
+solid/target/*
+
