@@ -1,6 +1,6 @@
-package single_responsibility_principle.srp_fix;
+package open_close_principle.ocp_fix;
 
-public class InvoicePersistenceImpl implements InvoicePersistence {
+public class InvoiceDBPersistenceImpl implements InvoicePersistence {
     @Override
     public void persistInvoice() {
         System.out.println("Saved invoice in mySql DB !!");
