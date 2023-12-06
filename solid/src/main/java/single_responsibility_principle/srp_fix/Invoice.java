@@ -2,14 +2,14 @@ package single_responsibility_principle.srp_fix;
 
 public class Invoice {
     Book book;
-    InvoicePersistenceImpl invoicePersistence;
-    InvoicePrintImpl invoicePrint;
+    InvoicePersistence invoicePersistence;
+    InvoicePrint invoicePrint;
     CalculateInvoice calculateInvoice;
 
     public void perform() {
         this.book = new Book("Ujjwal Book", "UK", 2023, 1000, "yes");
-        this.invoicePrint = new InvoicePrintImpl();
-        this.invoicePersistence = new InvoicePersistenceImpl();
+        this.invoicePrint = new InvoicePrint();
+        this.invoicePersistence = new InvoicePersistence();
         this.calculateInvoice = new CalculateInvoice();
 
 

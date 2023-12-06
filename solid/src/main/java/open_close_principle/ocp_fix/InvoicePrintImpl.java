@@ -1,4 +1,4 @@
-package single_responsibility_principle.srp_fix;
+package open_close_principle.ocp_fix;
 
 public class InvoicePrintImpl implements InvoicePrint {
     @Override

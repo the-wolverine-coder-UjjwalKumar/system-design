@@ -1,5 +1,7 @@
 package single_responsibility_principle.srp_fix;
 
-public interface InvoicePrint {
-    void printInvoice();
+public class InvoicePrint  {
+    public void printInvoice() {
+        System.out.println("Printing the invoice using logic 1 !!");
+    }
 }
