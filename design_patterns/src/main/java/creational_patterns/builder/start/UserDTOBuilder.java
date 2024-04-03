@@ -1,5 +1,7 @@
 package creational_patterns.builder.start;
 
+import creational_patterns.builder.models.Address;
+
 import java.time.LocalDate;
 
 //Abstract builder
